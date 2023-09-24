@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./components/NavBar";
-import { Provider } from "./components/Provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,16 +16,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body
-        suppressHydrationWarning={true}
+    <html lang="en" >
+      <body suppressHydrationWarning={true}
         className={`${inter.className} bg-blue-50 text-black dark:bg-[#090908] dark:text-white h-full selection:bg-gray-500 dark:selection:bg-gray-800`}
       >
         <Provider>
-          <Navbar />
-          <main className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-8">
-            {children}
-          </main>
+        <Navbar />
+        <main className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-8">
+          {children}
+        </main>
         </Provider>
       </body>
     </html>

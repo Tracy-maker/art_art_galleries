@@ -22,9 +22,9 @@ export default function ThemeButton() {
       className="bg-blue-500/30 p-2 rounded-lg text-blue-500"
     >
       {resolvedTheme === "dark" ? (
-        <LightBulbIcon className="w-6 h-6" />
+     <LightBulbIcon/>
       ) : (
-        <MoonIcon className="w-6 h-6" />
+      <MoonIcon/>
       )}
     </button>
   );
