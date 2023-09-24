@@ -1,0 +1,7 @@
+/* styles/fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=Google-Font-Family&display=swap'); // Replace 'Google-Font-Family' with the actual font name
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Croissant One", "sans"],
+        custom: ["Google-Font-Family", "sans"],
       },
 
       backgroundImage: {

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
       <div className="space-y-2 pt-5 pb-4 md:space-x-5">
-        <div className="font-custom leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-xl md:leading-13">
+        <div className="text-base font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-xl md:leading-13">
           Greetings, art enthusiast! Join me at the canvas of curiosity, where
           vibrant imagination meets a delightful collection of unique oil
           paintings. My blog, filled with art-related humor and insights, awaits
@@ -25,7 +25,7 @@ export default function Home() {
             height={700}
             className="rounded-lg object-cover object-top"
           />
-          <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
+          <h3 className="pt-4 pb-2 text-2xl leading-8 tracking-tight">
             HANG GAO
           </h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
