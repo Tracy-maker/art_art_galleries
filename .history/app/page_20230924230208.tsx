@@ -28,7 +28,7 @@ export default function Home() {
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
             HANG GAO
           </h3>
-          <p className="text-gray-500 dark:text-gray-300 text-center">
+          <p className="text-gray-300 dark:text-gray-300 text-center">
             &quot;Hello, I&apos;m Gao Hang, an artist and educator.&quot;
           </p>
           <div className="flex space-x-5 pt-6">
@@ -45,20 +45,20 @@ export default function Home() {
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
           <p>
-            Allow me to introduce myself properly 🎨: I&lsquo;ve walked the
-            hallowed halls of academia, graduating from the prestigious Lu Xun
-            Academy of Fine Arts in 2015 and proudly earning my Master&lsquo;s
-            in Fine Art from RMIT in 2021 🎓. Since 2016, I&lsquo;ve been a
-            torchbearer of creativity, guiding aspiring artists on their own
-            unique paths 🌟. I firmly believe in the transformative magic of
-            art, the way it can reshape our perceptions, stir our emotions, and
-            breathe life into the mundane ✨.
+            Allow me to introduce myself properly 🎨: I've walked the hallowed
+            halls of academia, graduating from the prestigious Lu Xun Academy of
+            Fine Arts in 2015 and proudly earning my Master's in Fine Art from
+            RMIT in 2021 🎓. Since 2016, I've been a torchbearer of creativity,
+            guiding aspiring artists on their own unique paths 🌟. I firmly
+            believe in the transformative magic of art, the way it can reshape
+            our perceptions, stir our emotions, and breathe life into the
+            mundane ✨.
           </p>
           <p>
             So, dear friend, whether you seek a masterpiece to grace your walls
             or guidance on your artistic odyssey, I am here to be your companion
-            and guide 🖌️. Let&lsquo;s embark on this creative journey together,
-            where every brushstroke tells a story 📖, and every canvas holds the
+            and guide 🖌️. Let's embark on this creative journey together, where
+            every brushstroke tells a story 📖, and every canvas holds the
             promise of boundless artistic expression 🎨.
           </p>
         </div>
