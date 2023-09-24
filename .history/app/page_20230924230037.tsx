@@ -55,11 +55,15 @@ export default function Home() {
             mundane ✨.
           </p>
           <p>
-            So, dear friend, whether you seek a masterpiece to grace your walls
-            or guidance on your artistic odyssey, I am here to be your companion
-            and guide 🖌️. Let's embark on this creative journey together, where
-            every brushstroke tells a story 📖, and every canvas holds the
-            promise of boundless artistic expression 🎨.
+          So, dear friend, whether you seek a masterpiece to grace your walls or guidance on your artistic odyssey, I am here to be your companion and guide 🖌️. Let's embark on this creative journey together, where every brushstroke tells a story 📖, and every canvas holds the promise of boundless artistic expression 🎨.
+          </p>
+          <p>
+            If you&apos;re in search of a junior teammate for your web
+            development adventures, someone who&apos;s eager to add a touch of
+            magic to your projects while learning and growing alongside you,
+            I&apos;m here and ready to embark on this exciting journey of web
+            development together. Let&apos;s create some enchanting digital
+            experiences! 🌌✨
           </p>
         </div>
       </div>

@@ -45,21 +45,22 @@ export default function Home() {
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
           <p>
-            Allow me to introduce myself properly 🎨: I've walked the hallowed
-            halls of academia, graduating from the prestigious Lu Xun Academy of
-            Fine Arts in 2015 and proudly earning my Master's in Fine Art from
-            RMIT in 2021 🎓. Since 2016, I've been a torchbearer of creativity,
-            guiding aspiring artists on their own unique paths 🌟. I firmly
-            believe in the transformative magic of art, the way it can reshape
-            our perceptions, stir our emotions, and breathe life into the
-            mundane ✨.
+          Allow me to introduce myself properly 🎨: I've walked the hallowed halls of academia, graduating from the prestigious Lu Xun Academy of Fine Arts in 2015 and proudly earning my Master's in Fine Art from RMIT in 2021 🎓. Since 2016, I've been a torchbearer of creativity, guiding aspiring artists on their own unique paths 🌟. I firmly believe in the transformative magic of art, the way it can reshape our perceptions, stir our emotions, and breathe life into the mundane ✨.
           </p>
           <p>
-            So, dear friend, whether you seek a masterpiece to grace your walls
-            or guidance on your artistic odyssey, I am here to be your companion
-            and guide 🖌️. Let's embark on this creative journey together, where
-            every brushstroke tells a story 📖, and every canvas holds the
-            promise of boundless artistic expression 🎨.
+            What sets me apart is my enthusiasm for collaboration and learning.
+            I thrive in team settings, and I&apos;m always eager to absorb
+            knowledge from experienced developers. I may be new to the field,
+            but I&apos;m a quick learner and a diligent worker, ready to
+            contribute to projects with a fresh perspective. 🧙‍♂️🚀
+          </p>
+          <p>
+            If you&apos;re in search of a junior teammate for your web
+            development adventures, someone who&apos;s eager to add a touch of
+            magic to your projects while learning and growing alongside you,
+            I&apos;m here and ready to embark on this exciting journey of web
+            development together. Let&apos;s create some enchanting digital
+            experiences! 🌌✨
           </p>
         </div>
       </div>

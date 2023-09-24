@@ -7,7 +7,7 @@ import {
 export default function Home() {
   return (
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
-      <div className="space-y-2 pt-5 pb-4 md:space-x-5">
+      <div className="space-y-2 pt-5 pb-6 md:space-x-5">
         <div className="text-base font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-xl md:leading-13">
           Greetings, art enthusiast! Join me at the canvas of curiosity, where
           vibrant imagination meets a delightful collection of unique oil
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
       <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-        <div className="flex flex-col items-center pt-6">
+        <div className="flex flex-col items-center pt-8">
           <Image
             src="https://i.ibb.co/pLtDPwp/image.png"
             alt="image"
@@ -44,22 +44,28 @@ export default function Home() {
           </div>
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 leading-loose dark:prose-invert xl:col-span-2">
+          <p>🌟 Junior Frontend Enthusiast Eager to Learn! 🪄</p>
           <p>
-            Allow me to introduce myself properly 🎨: I've walked the hallowed
-            halls of academia, graduating from the prestigious Lu Xun Academy of
-            Fine Arts in 2015 and proudly earning my Master's in Fine Art from
-            RMIT in 2021 🎓. Since 2016, I've been a torchbearer of creativity,
-            guiding aspiring artists on their own unique paths 🌟. I firmly
-            believe in the transformative magic of art, the way it can reshape
-            our perceptions, stir our emotions, and breathe life into the
-            mundane ✨.
+            I&apos;m a budding magician in the world of web development, and
+            I&apos;m passionate about crafting web experiences that are not only
+            functional but also visually appealing. I&apos;m currently honing my
+            skills in JavaScript,React.JS,Tailwind,CSS,Firebase... and I&apos;m
+            excited about the journey ahead. 🌐✨
           </p>
           <p>
-            So, dear friend, whether you seek a masterpiece to grace your walls
-            or guidance on your artistic odyssey, I am here to be your companion
-            and guide 🖌️. Let's embark on this creative journey together, where
-            every brushstroke tells a story 📖, and every canvas holds the
-            promise of boundless artistic expression 🎨.
+            What sets me apart is my enthusiasm for collaboration and learning.
+            I thrive in team settings, and I&apos;m always eager to absorb
+            knowledge from experienced developers. I may be new to the field,
+            but I&apos;m a quick learner and a diligent worker, ready to
+            contribute to projects with a fresh perspective. 🧙‍♂️🚀
+          </p>
+          <p>
+            If you&apos;re in search of a junior teammate for your web
+            development adventures, someone who&apos;s eager to add a touch of
+            magic to your projects while learning and growing alongside you,
+            I&apos;m here and ready to embark on this exciting journey of web
+            development together. Let&apos;s create some enchanting digital
+            experiences! 🌌✨
           </p>
         </div>
       </div>
