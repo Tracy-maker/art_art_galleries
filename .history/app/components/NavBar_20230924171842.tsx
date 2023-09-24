@@ -12,14 +12,14 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between h-24">
+            <div className="flex justify-between h-16">
               <div className="flex justify-between w-full">
                 <div className="flex items-center">
                   <Image
                     className=" object-cover"
-                    width={350}
-                    height={210}
-                    src="https://i.ibb.co/tcTYJh0/Wechat-IMG6490.png"
+                    width={150}
+                    height={150}
+                    src="https://i.ibb.co/XYJyrrT/Wechat-IMG6483.png"
                     alt="Logo"
                   />
                 </div>
@@ -30,8 +30,8 @@ export default function Navbar() {
                     prefetch
                     className={`${
                       pathname === "/"
-                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
-                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     ABOUT ME
@@ -42,8 +42,8 @@ export default function Navbar() {
                     prefetch
                     className={`${
                       pathname === "/galleries"
-                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
-                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     Galleries

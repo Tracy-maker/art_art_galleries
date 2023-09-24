@@ -30,8 +30,8 @@ export default function Navbar() {
                     prefetch
                     className={`${
                       pathname === "/"
-                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
-                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-large"
+                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     ABOUT ME
@@ -42,8 +42,8 @@ export default function Navbar() {
                     prefetch
                     className={`${
                       pathname === "/galleries"
-                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
-                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
+                        ? "border-blue-400 h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                        : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     }`}
                   >
                     Galleries
