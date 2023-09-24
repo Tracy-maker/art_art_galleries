@@ -4,7 +4,6 @@ import { Disclosure } from "@headlessui/react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { XMarkIcon, Bars4Icon } from "@heroicons/react/20/solid";
 
 export default function Navbar() {
   let pathname = usePathname() || "/";
@@ -35,7 +34,7 @@ export default function Navbar() {
                         : "border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
                     }`}
                   >
-                    MAIN
+                    ABOUT ME
                   </Link>
 
                   <Link
@@ -51,46 +50,8 @@ export default function Navbar() {
                   </Link>
                 </div>
               </div>
-              <div className="-mr-2 flex items-center sm:hidden">
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:ring-teal-500 dark:hover:bg-gray-800">
-                  {open ? (
-                    <XMarkIcon className="w-6 h-6" />
-                  ) : (
-                    <Bars4Icon className="w-6 h-6" />
-                  )}
-                </Disclosure.Button>
-              </div>
             </div>
           </div>
-          <Disclosure.Panel className="sm:hidden">
-            <div className="pt-2 pb-3 space-y-1">
-              <Link
-                href="/"
-                prefetch
-                className={`${
-                  pathname === "/"
-                    ? "bg-blue-50 border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
-                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-blue-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700"
-                }`}
-              >
-                MAIN
-              </Link>
-            </div>
-
-            <div className="pt-2 pb-3 space-y-1">
-              <Link
-                href="/"
-                prefetch
-                className={`${
-                  pathname === "/galleries"
-                    ? "bg-blue-50 border-blue-500 text-blue-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800"
-                    : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-blue-500 block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
-                }`}
-              >
-                 GALLERIES
-              </Link>
-            </div>
-          </Disclosure.Panel>
         </>
       )}
     </Disclosure>
