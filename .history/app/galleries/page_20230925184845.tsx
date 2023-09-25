@@ -39,7 +39,11 @@ export default async function galleries() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <Link href={`/galleries/${gallery.slug.current}`} prefetch>
+            <Link
+              href={`/galleries/${gallery.slug.current}`}
+              prefetch
+              
+            >
               <div className="p-4 sm:p-6">
                 <div>
                   <p className="text-base font-medium leading-6 text-blue-900">

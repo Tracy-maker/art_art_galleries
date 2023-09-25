@@ -39,8 +39,12 @@ export default async function galleries() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <Link href={`/galleries/${gallery.slug.current}`} prefetch>
-              <div className="p-4 sm:p-6">
+            <Link
+              href={`/galleries/${gallery.slug.current}`}
+              prefetch
+              className="p-4 sm:p-6"
+            >
+              <div>
                 <div>
                   <p className="text-base font-medium leading-6 text-blue-900">
                     {new Date(gallery._createdAt).toISOString().split("T")[0]}
