@@ -28,7 +28,7 @@ export default async function galleries() {
         <div className="flex font-custom leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-lg sm:leading-10 md:text-xl md:leading-13">
           Greetings to my art sanctuary! Should any piece stir your soul, a
           simple email will bridge our worlds. Let our artistic dialogue begin.
-          <Link href="mailto:augustehang@gmail.com" target="_email">
+          <Link href="mailto:ydlvns@gmail.com" target="_email">
             <EnvelopeIcon className="w-12 h-12 text-blue-500" />
           </Link>
         </div>
