@@ -13,7 +13,7 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="rounded-md max-w-full bg-gradient-to-r from-purple-200 via-blue-200 to-transparent mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded max-w-full bg-gradient-to-r from-purple-200 via-blue-200 to-transparent mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-24">
               <div className="flex justify-between w-full">
                 <div className="flex items-center">

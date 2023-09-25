@@ -1,4 +1,6 @@
+/* styles/fonts.css */
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

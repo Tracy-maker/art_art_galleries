@@ -11,6 +11,7 @@ const config: Config = {
     extend: {},
     fontFamily: {
       custom: ["Croissant One", "sans"],
+    
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
