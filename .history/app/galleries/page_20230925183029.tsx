@@ -8,7 +8,6 @@ async function getData() {
   const query = `*[_type == "gallery"]`;
   const data = await client.fetch(query);
   return data;
-  console.log(data);
 }
 
 export default async function galleries() {
@@ -40,9 +39,9 @@ export default async function galleries() {
               />
             </div>
             <Link
-              href={`/galleries/${gallery.slug.current}`}
+              href={`/galleries/${gallery.slug}`}
               prefetch
-              className="p-8 sm:p-6"
+              className="p-4 sm:p-6"
             >
               <div>
                 <p className="text-base font-medium leading-6 text-blue-900">

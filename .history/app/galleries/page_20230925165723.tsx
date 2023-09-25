@@ -8,12 +8,10 @@ async function getData() {
   const query = `*[_type == "gallery"]`;
   const data = await client.fetch(query);
   return data;
-  console.log(data);
 }
 
 export default async function galleries() {
   const data = (await getData()) as gallery[];
-  console.log(data);
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
@@ -39,13 +37,9 @@ export default async function galleries() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <Link
-              href={`/galleries/${gallery.slug.current}`}
-              prefetch
-              className="p-8 sm:p-6"
-            >
+            <div className="p-4 sm:p-6">
               <div>
-                <p className="text-base font-medium leading-6 text-blue-900">
+                <p className="text-base font-medium leading-6">
                   {new Date(gallery._createdAt).toISOString().split("T")[0]}
                 </p>
                 <h3 className="text-lg font-medium text-gray-900 dark:text-white">
@@ -55,7 +49,14 @@ export default async function galleries() {
               <p className="line-clamp-3 mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
                 {gallery.overview}
               </p>
-            </Link>
+              <a
+                href={gallery.link}
+                target="_blank"
+                className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-500"
+              >
+                Learn More ...
+              </a>
+            </div>
           </article>
         ))}
       </div>

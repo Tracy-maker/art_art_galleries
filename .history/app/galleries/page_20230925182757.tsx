@@ -4,11 +4,11 @@ import { client } from "../lib/sanity";
 import Image from "next/image";
 import { gallery } from "../lib/interface";
 
+
 async function getData() {
   const query = `*[_type == "gallery"]`;
   const data = await client.fetch(query);
   return data;
-  console.log(data);
 }
 
 export default async function galleries() {
@@ -39,11 +39,10 @@ export default async function galleries() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <Link
-              href={`/galleries/${gallery.slug.current}`}
-              prefetch
-              className="p-8 sm:p-6"
-            >
+            <Link 
+            href={`/galleries/${gallery.slug.current}`}
+            prefetch
+            className="p-4 sm:p-6">
               <div>
                 <p className="text-base font-medium leading-6 text-blue-900">
                   {new Date(gallery._createdAt).toISOString().split("T")[0]}
