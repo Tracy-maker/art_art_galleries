@@ -5,15 +5,15 @@ import Image from "next/image";
 import { gallery } from "../lib/interface";
 
 async function getData() {
-  const query = `*[_type == "gallery"] {
+  const query = `*[_type == "gallery"]{
     title,
     overview,
+    content,
     _id,
-    "imageUrl": image.asset->url, // Fetch the image URL directly from the asset
+    "imageUrl": image.asset->url
     slug,
-    _createdAt
+    _createdAt,
   }`;
-  
   const data = await client.fetch(query);
   return data;
   console.log(data);

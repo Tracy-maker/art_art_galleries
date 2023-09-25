@@ -23,15 +23,13 @@ export default async function SlugPage({
   const PortableTextComponent = {
     types: {
       image: ({ value }: { value: any }) => (
-        <div className="flex justify-center items-center h-800">
-          <Image
-            src={urlFor(value).url()}
-            alt="Image"
-            className="rounded-lg"
-            width={800}
-            height={800}
-          />
-        </div>
+        <Image
+          src={urlFor(value).url()}
+          alt="Image"
+          className="rounded-lg"
+          width={800}
+          height={800}
+        />;
       ),
     },
   };

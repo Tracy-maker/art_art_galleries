@@ -20,19 +20,17 @@ export default async function SlugPage({
   const data = (await getData(params.slug)) as gallery;
   console.log(data);
 
-  const PortableTextComponent = {
+  const PortableTextComponents = {
     types: {
-      image: ({ value }: { value: any }) => (
-        <div className="flex justify-center items-center h-800">
-          <Image
-            src={urlFor(value).url()}
-            alt="Image"
-            className="rounded-lg"
-            width={800}
-            height={800}
-          />
-        </div>
-      ),
+      image: ({ value }: { value: any }) => {
+        <Image
+          src={urlFor(value).url()}
+          alt="Image"
+          className="rounded-lg"
+          width={800}
+          height={800}
+        />;
+      },
     },
   };
 
@@ -61,7 +59,7 @@ export default async function SlugPage({
           <div className="prose max-w-none pb-8 pt-10 dark:prose-invert prose-lg">
             <PortableText
               value={data.content}
-              components={PortableTextComponent}
+              components={PortableTextComponents}
             />
           </div>
         </div>

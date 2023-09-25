@@ -9,7 +9,7 @@ async function getData() {
     title,
     overview,
     _id,
-    "imageUrl": image.asset->url, // Fetch the image URL directly from the asset
+    "imageUrl": image.asset->url, 
     slug,
     _createdAt
   }`;

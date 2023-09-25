@@ -1,7 +1,7 @@
 export interface gallery {
   title: string;
   overview: string;
-  content: any;
+  content:any
   _id: string;
   imageUrl: string;
   slug: {
