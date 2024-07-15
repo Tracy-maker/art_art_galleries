@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { XMarkIcon, Bars4Icon } from "@heroicons/react/20/solid";
 import ThemeButton from "./ThemeButton";
+import MusicButton from "./MusicButton";
 
 export default function Navbar() {
   let pathname = usePathname() || "/";
@@ -51,8 +52,10 @@ export default function Navbar() {
                     GALLERIES
                   </Link>
                   <ThemeButton />
+                  <MusicButton/>
                 </div>
               </div>
+              
               <div className="-mr-2 flex items-center sm:hidden">
                 <ThemeButton />
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:ring-teal-500 dark:hover:bg-gray-800">
@@ -63,6 +66,8 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
+
+
             </div>
           </div>
           <Disclosure.Panel className="sm:hidden">
