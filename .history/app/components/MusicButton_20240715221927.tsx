@@ -12,9 +12,7 @@ export default function MusicButton() {
 
   const toggleMusic = () => {
     setIsPlaying(!isPlaying);
-    const audio = document.getElementById(
-      "background-music"
-    ) as HTMLAudioElement;
+    const audio = document.getElementById("background-music") as HTMLAudioElement;
     if (audio) {
       if (isPlaying) {
         audio.pause();
@@ -26,9 +24,7 @@ export default function MusicButton() {
 
   const selectTrack = (track: string) => {
     setCurrentTrack(track);
-    const audio = document.getElementById(
-      "background-music"
-    ) as HTMLAudioElement;
+    const audio = document.getElementById("background-music") as HTMLAudioElement;
 
     if (audio) {
       audio.src = track;
@@ -54,7 +50,7 @@ export default function MusicButton() {
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 sm:text-base">
-            Tracks
+          Tracks
             <ChevronDownIcon className="w-5 h-5 ml-2 -mr-1" />
           </Menu.Button>
         </div>

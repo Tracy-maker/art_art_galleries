@@ -53,8 +53,8 @@ export default function MusicButton() {
 
       <Menu as="div" className="relative inline-block text-left">
         <div>
-          <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 sm:text-base">
-            Tracks
+          <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+            Select Music
             <ChevronDownIcon className="w-5 h-5 ml-2 -mr-1" />
           </Menu.Button>
         </div>
@@ -75,7 +75,7 @@ export default function MusicButton() {
                     onClick={() => selectTrack("/music1.mp3")}
                     className={`${
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700"
-                    } block px-4 py-2 text-sm cursor-pointer sm:text-base`}
+                    } block px-4 py-2 text-sm cursor-pointer`}
                   >
                     Music 1
                   </a>
@@ -87,7 +87,7 @@ export default function MusicButton() {
                     onClick={() => selectTrack("/music2.mp3")}
                     className={`${
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700"
-                    } block px-4 py-2 text-sm cursor-pointer sm:text-base`}
+                    } block px-4 py-2 text-sm cursor-pointer`}
                   >
                     Music 2
                   </a>

@@ -58,7 +58,7 @@ export default function Navbar() {
               
               <div className="-mr-2 flex items-center sm:hidden">
                 <ThemeButton />
-                <MusicButton/>
+               
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:ring-teal-500 dark:hover:bg-gray-800">
                   {open ? (
                     <XMarkIcon className="w-6 h-6" />
@@ -98,6 +98,7 @@ export default function Navbar() {
               >
                 GALLERIES
               </Link>
+              <MusicButton/>
             </div>
           </Disclosure.Panel>
         </>
