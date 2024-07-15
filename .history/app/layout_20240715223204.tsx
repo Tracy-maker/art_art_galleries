@@ -24,12 +24,15 @@ export default function RootLayout({
         <meta name="description" content="Hang Gao artist, sell art gallery" />
         <meta property="og:title" content="Melbourne Art Gallery Hang Gao" />
         <meta property="og:description" content="Hang Gao artist, sell art gallery" />
-        <meta property="og:url" content="https://art-art-galleries.vercel.app/" />
+        <meta property="og:image" content="/path/to/image.jpg" />
+        <meta property="og:url" content="https://yourwebsite.com" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Melbourne Art Gallery Hang Gao" />
         <meta name="twitter:description" content="Hang Gao artist, sell art gallery" />
-        <link rel="canonical" href="https://art-art-galleries.vercel.app/" />
-        <link rel="icon" href="/public/art.svg" type="image/svg+xml" />
+        <meta name="twitter:image" content="/path/to/image.jpg" />
+        <link rel="canonical" href="https://yourwebsite.com" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body
         suppressHydrationWarning={true}

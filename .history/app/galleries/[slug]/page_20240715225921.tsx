@@ -45,19 +45,4 @@ export default async function SlugPage({
             {new Date(data._createdAt).toISOString().split("T")[0]}
           </p>
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-            {data.title}
-          </h1>
-        </div>
-      </header>
-
-      <main className="divide-y divide-gray-200 dark:divide-gray-700">
-        <article className="prose max-w-none py-10 dark:prose-invert prose-lg">
-          <PortableText
-            value={data.content}
-            components={PortableTextComponent}
-          />
-        </article>
-      </main>
-    </div>
-  );
-}
+            {data.t

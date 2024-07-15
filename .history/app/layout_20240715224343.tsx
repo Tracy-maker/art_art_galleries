@@ -26,10 +26,12 @@ export default function RootLayout({
         <meta property="og:description" content="Hang Gao artist, sell art gallery" />
         <meta property="og:url" content="https://art-art-galleries.vercel.app/" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Melbourne Art Gallery Hang Gao" />
         <meta name="twitter:description" content="Hang Gao artist, sell art gallery" />
+
         <link rel="canonical" href="https://art-art-galleries.vercel.app/" />
-        <link rel="icon" href="/public/art.svg" type="image/svg+xml" />
+        <link rel="icon" href="/art.svg" type="image/svg+xml" />
       </Head>
       <body
         suppressHydrationWarning={true}

@@ -30,6 +30,7 @@ export default function RootLayout({
         <meta name="twitter:description" content="Hang Gao artist, sell art gallery" />
         <link rel="canonical" href="https://art-art-galleries.vercel.app/" />
         <link rel="icon" href="/public/art.svg" type="image/svg+xml" />
+       
       </Head>
       <body
         suppressHydrationWarning={true}
